@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* overflow-x: hidden; */
+  /* Remove the hidden property */
+}
+body {
+  font-family: sans-serif;
+}
+
+.primary {
+  background-color: #002366;
+}
+
+.secondary {
+  background-color: #ffd700;
+}
+
+.text {
+  color: #333333;
+}
+
+.headerText {
+  color: #ffffff;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.btnPrimary {
+  border-radius: 4px;
+  background-color: #002366;
+}
+
+.btnSecondary {
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #002366;
+}
+
+/* bushra's css */
+.text-primary {
+  color: #002366;
+}
+.text-secondary {
+  color: #ffd700;
+}
+.body-color {
+  background-color: #333333;
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, -5px) !important;
+}
+.icn{
+  transition: ease-in-out 0.5s;
+}
+.icn:hover{
+  margin-top: -10px;
+}
+.second{
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+.mainhover:hover .second{
+  opacity: 1;
+}
